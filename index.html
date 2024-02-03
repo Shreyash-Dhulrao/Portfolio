@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Homepage</title>
+    <link rel="shortcut icon" href="CSS/Images/icons/home.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div class="h1">
+        <ul class="ul_1">
+            <li><a href="index.html" class="link_1" id="home">Home</a></li>
+            <li><a href="work.html" class="link_1" id="work">My Work</a></li>
+            <li><a href="about.html" class="link_1" id="about">About Me</a></li>
+            <li><a href="contact.html" class="link_1" id="contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="aside">
+        <a href="https://www.instagram.com/shreyash.dhulrao?igsh=aGM3NjUzbGVseXN2"><img src="CSS/Images/icons/instagram.png" alt="instagram" class="social_acc" id="insta"></a>
+        <a href="https://www.threads.net/@shreyash.dhulrao"><img src="CSS/Images/icons/threads.png" id="threads" alt="instagram" class="social_acc"></a>
+        <a href="https://www.facebook.com/shreyashdhularao.shreyashdhularao?mibextid=ZbWKwL"><img src="CSS/Images/icons/facebook.png" alt="facebook" class="social_acc"></a>
+        <a href="https://github.com/Shreyash-Dhulrao"><img src="CSS/Images/icons/github.png" alt="github" class="social_acc" id="git"></a>
+        <a href="https://www.linkedin.com/in/shreyash-dhulrao-47b519228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="CSS/Images/icons/linkedin.png" alt="linkedin" class="social_acc"></a>
+    </div>
+    <main>
+
+        <div class="firstpart">
+            <div class="left">
+                <div>
+                    <p>Hello </p>
+                    <p class="name_text">I'm</p>
+                    <h1 class="name_text">Shreyash</h1>
+                    <div>
+                        <span id="element"></span>
+                    </div>
+                    <div>
+                        <button id="btn_Res">resume</button>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <img src="CSS/Images/self.jpg" alt="" id="self_img">
+            </div>
+        </div>
+        <hr>
+        <div class="secondpart">
+            <h3>Learnings</h3>
+            <ul class="ul_2">
+                <li class="list_1"><img src="CSS/Images/html.png" alt="" class="img_icon">HTML</li>
+                <li class="list_1"><img src="CSS/Images/css-3.png" alt="" class="img_icon">CSS</li>
+                <li class="list_1"><img src="CSS/Images/tailwind.png" alt="" class="img_icon">Tailwind CSS</li>
+                <li class="list_1"><img src="CSS/Images/java-script.png" alt="" class="img_icon">Javascript</li>
+                <li class="list_1"><img src="CSS/Images/react.png" alt="" class="img_icon" id="reactjs">React Js</li>
+                <li class="list_1"><img src="CSS/Images/mongodb.png" alt="" class="img_icon">MongoDB</li>
+                <li class="list_1"><img src="CSS/Images/node-js.png" alt="" class="img_icon">NodeJs</li>
+            </ul>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</body>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['FrontEnd Developer', 'Web Designer','Programmer'],
+      typeSpeed: 70,
+    });
+  </script>
+</html>
