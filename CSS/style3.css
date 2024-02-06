@@ -1,0 +1,28 @@
+@font-face {
+    font-family: font2;
+    src: url(Fonts/Sansation_Regular.ttf);
+}
+#form_fill{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0px  400px;
+    background-color: #56d4fd;
+}
+.inputs{
+    width: 300px;
+    align-self: center;
+    margin-bottom: 20px;
+    padding: 10px 20px ;
+    font-size: 16px;
+font-family: font2;
+outline: none;
+border-radius: 3px;
+border: none;
+
+}
+#submit{
+    margin-bottom: 30px;
+    padding: 10px 20px ;
+}
